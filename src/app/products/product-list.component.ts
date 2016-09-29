@@ -1,10 +1,13 @@
 import {Component, OnInit} from "angular2/core"
 import{IProduct} from "./product"
+import {StarComponent} from '../shared/star.component'
 
 @Component({
     selector:'pm-products',
     templateUrl:"app/products/product-list.component.html",
-    styleUrls:["app/products/product-list.component.css"]
+    styleUrls:["app/products/product-list.component.css"],
+    directives: [StarComponent]
+   
 })
 
 export class ProductListComponent implements OnInit{

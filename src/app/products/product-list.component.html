@@ -38,7 +38,7 @@
                         <td>{{product.productCode | lowercase}} </td>
                         <td>{{product.releaseDate}}</td>
                         <td>{{product.price | currency:'USD':true | lowercase}}</td>
-                        <td>{{product.starRating}}</td>
+                        <td> <aci-star [rating]='product.starRating'></aci-star> </td>
                     </tr>
 
                 </tbody>
