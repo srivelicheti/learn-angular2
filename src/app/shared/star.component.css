@@ -1,6 +1,12 @@
 .crop {
     overflow: hidden;
+    /*color:yellow;*/
 }
 div {
     cursor: pointer;
+}
+
+.yellow .glyphicon-star
+{
+    color:yellow;
 }
